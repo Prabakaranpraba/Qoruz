@@ -1,0 +1,11 @@
+.banner {
+  background-image: url(../../assets/banner.png);
+  width: 1440px;
+  height: 223px;
+  /* background: linear-gradient(
+    256.34deg,
+    #1f0037 -0.66%,
+    rgba(39, 5, 100, 0) 97.33%
+  ); */
+  /* transform: rotate(90deg); */
+}

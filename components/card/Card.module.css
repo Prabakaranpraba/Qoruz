@@ -1,0 +1,48 @@
+.input:focus,
+.form_control:focus {
+  outline: none !important;
+}
+
+/* a {
+  text-decoration: none !important;
+} */
+/* ul,
+li,
+ol {
+  text-decoration: none;
+  list-style: none;
+} */
+.filter_strip .card,
+.user_details .card {
+  background: #ffffff;
+  border: 1px solid #e9e9ea;
+  box-shadow: 0px 13.85px 13.15px -12px rgba(83, 30, 0, 0.05);
+  border-radius: 32px;
+}
+.filter_strip .card select {
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 12px 9px -3px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+}
+.filter_strip .card select option {
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 12px 9px -3px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+}
+.filter_strip .card input[type="search"] {
+  border: none;
+}
+.filter_strip .card input[type="search"]:focus {
+  outline: none !important;
+}
+.filter_strip .card .filter_input {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.filter_strip .card .filter_input i {
+  color: #e9e9ea;
+  font-size: 22px;
+}
