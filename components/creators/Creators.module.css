@@ -1,0 +1,130 @@
+.other_creators {
+  padding: 50px 0;
+}
+.other_creators h2 {
+  font-size: 48px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+.other_creators p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #666666;
+}
+.other_creators .network_card {
+  background: #ffffff;
+  border: 1px solid #e9e9ea;
+  box-shadow: 0px 1.85185px 3.14815px rgba(83, 30, 0, 0.02),
+    0px 24px 25.4815px rgba(83, 30, 0, 0.04);
+  border-radius: 32px !important;
+  /* padding: 15px; */
+  margin-bottom: 25px;
+}
+.other_creators .network_card .card_body p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: left !important;
+  letter-spacing: -0.02em;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 0;
+  /* color: #7120FD; */
+}
+
+.other_creators .network_card .card_body h3 {
+  font-weight: 700;
+
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 20px 20px 20px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.other_creators .network_card .card_footer {
+  background: #f8f3ff;
+  padding: 10px;
+  border-radius: 0 0 32px 32px;
+  border-top: 1px solid #eae5f1;
+}
+.other_creators .network_card .card_footer ul {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  align-items: center;
+}
+.other_creators .network_card .card_footer ul li:first-child {
+  margin-left: 0;
+}
+.other_creators .network_card .card_footer ul li {
+  margin-left: -15px;
+}
+.other_creators .network_card .card_footer ul li span {
+  padding: 12px 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.other_creators .last_netword_card {
+  background: #ffffff;
+  border: 1px solid #e9e9ea;
+  box-shadow: 0px 26px 32px -32px rgba(63, 63, 63, 0.1);
+  border-radius: 32px;
+  height: auto;
+}
+.other_creators .last_netword_card .card_body .see_morecategory {
+  display: flex;
+  padding: 55px 55px;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+.other_creators .last_netword_card .card_body .see_morecategory p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* or 100% */
+  margin-bottom: 0;
+
+  color: #666666;
+}
+.other_creators .network_card .card_body .entertainment {
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 16px; */
+  color: #7120fd;
+  /* margin-bottom: 0; */
+}
+.other_creators .network_card .card_body .general {
+  color: #fabb1a !important;
+}
+.other_creators .network_card .card_body .family {
+  color: #ff6435;
+}
+.other_creators .network_card .card_body .music {
+  color: #31b14d;
+}
+
+@media only screen and (max-width: 767px) {
+  .other_creators .network_card .card_footer ul li {
+    margin-left: -20px;
+  }
+  .other_creators .network_card .card_footer ul li img {
+    /* margin-left: -20px; */
+    max-width: 40px;
+  }
+}

@@ -1,5 +1,6 @@
 .user_details .card {
   margin-top: 20px;
+  border-radius: 29px !important;
 }
 .user_details .card .card_header {
   background-color: #ffffff;
@@ -16,13 +17,13 @@
 .user_details .card .card_header .user_status .user_sort h5 {
   color: #666666;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 18px;
 }
 .user_details .card .card_header .user_status .user_sort p {
   color: #999999;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
   margin: 0;
 }
@@ -63,22 +64,22 @@
   line-height: 10px;
   color: #999999;
 }
-.user_details .card .card-body .user_list ul {
+.user_details .card .card_body .user_list ul {
   padding-left: 0;
 }
-.user_details .card .card-body .user_list ul li .user_profile {
+.user_details .card .card_body .user_list ul li .user_profile {
   display: flex;
   align-content: center;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.user_details .card .card-body .user_list ul li .user_profile .avr_details {
+.user_details .card .card_body .user_list ul li .user_profile .avr_details {
   margin-left: 30px;
 }
-.user_details .card .card-body .user_list ul li .user_profile .avator {
+.user_details .card .card_body .user_list ul li .user_profile .avator {
   position: relative;
 }
-.user_details .card .card-body .user_list ul li .user_profile .avator span {
+.user_details .card .card_body .user_list ul li .user_profile .avator span {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -96,24 +97,24 @@
 
   color: #f8f8f8;
 }
-.user_details .card .card-body .user_list ul li .user_profile .avr_details h3 {
+.user_details .card .card_body .user_list ul li .user_profile .avr_details h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   /* identical to box height, or 100% */
   letter-spacing: -0.02em;
 }
-.user_details .card .card-body .user_list ul li {
+.user_details .card .card_body .user_list ul li {
   padding: 17px 10px;
 }
-.user_details .card .card-body .user_list ul li:hover {
+.user_details .card .card_body .user_list .ul .li:hover {
   background-color: #fdfafa;
   border-radius: 32px;
 }
-.user_details .card .card-body .user_list ul li:hover .avr_details h3 {
+.user_details .card .card_body .user_list .ul .li:hover .avr_details h3 {
   color: #ff6435;
 }
-.user_details .card .card-body .user_list ul li .user_profile .avr_details p {
+.user_details .card .card_body .user_list .ul li .user_profile .avr_details p {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -124,10 +125,10 @@
 }
 .user_details
   .card
-  .card-body
+  .card_body
   .user_list
-  ul
-  li
+  .ul
+  .li
   .user_profile
   .avr_details
   .u-instagram {
@@ -140,17 +141,17 @@
 
   color: #666666;
 }
-.user_details .card .card-body .user_list .user_chat ul {
+.user_details .card .card_body .user_list .user_chat ul {
   display: flex;
   justify-content: flex-end;
 }
-.user_details .card .card-body .user_list .user_chat ul li {
+.user_details .card .card_body .user_list .user_chat ul li {
   margin-right: 15px;
 }
-.user_details .card .card-body .user_list .user_chat ul li:last-child {
+.user_details .card .card_body .user_list .user_chat ul li:last-child {
   margin-right: 0;
 }
-.user_details .card .card-body .user_list .user_chat .message_btn {
+.user_details .card .card_body .user_list .user_chat .message_btn {
   background: #ffffff;
   color: #ff6435;
   font-weight: 600;
@@ -161,7 +162,7 @@
   padding: 10px 16px 10px 16px;
   gap: 8px;
 }
-.button-01 {
+.button_01 {
   color: #666666;
   letter-spacing: -0.02em;
   font-weight: 500;
@@ -172,14 +173,14 @@
   padding: 4px 14px;
   margin-top: 15px;
 }
-.user_details .card .card-body .user_list .user_chat .user_impressions {
+.user_details .card .card_body .user_list .user_chat .user_impressions {
   align-items: center;
   display: flex;
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
 }
-.user_details .card .card-body .user_list .user_chat .user_impressions li {
+.user_details .card .card_body .user_list .user_chat .user_impressions li {
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -187,7 +188,7 @@
 }
 .user_details
   .card
-  .card-body
+  .card_body
   .user_list
   .user_chat
   .user_impressions
@@ -196,7 +197,7 @@
 }
 .user_details
   .card
-  .card-body
+  .card_body
   .user_list
   .user_chat
   .user_impressions
@@ -216,11 +217,11 @@
 .sidebarr {
   margin-top: 20px;
 }
-.sidebarr .category-_ist ul {
+.sidebarr .category_list ul {
   padding-left: 0;
   margin: 20px 0;
 }
-.sidebarr .category-_ist ul li div {
+.sidebarr .category_list ul li div {
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -230,14 +231,14 @@
   margin: 0 0 10px 0;
   border-radius: 40px;
 }
-.sidebarr .category-_ist ul li div h3 {
+.sidebarr .category_list ul li div h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
   color: #666666;
   margin: 0;
 }
-.sidebarr .category-_ist ul li div p {
+.sidebarr .category_list ul li div p {
   margin-bottom: 0;
   font-weight: 500;
   font-size: 12px;
@@ -283,7 +284,7 @@
   margin: 15px 0;
   border-bottom: 1px solid #99999979;
 }
-.popular_creators ul li .pc-users {
+.popular_creators ul li .pc_users {
   display: flex;
   flex-wrap: nowrap;
   align-content: center;
@@ -291,16 +292,16 @@
   align-items: center;
   margin: 10px 0;
 }
-.popular_creators ul li .pc-users .pc-user_details {
+.popular_creators ul li .pc_users .pc_user_details {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.popular_creators ul li .pc-users .pc-user_details img {
+.popular_creators ul li .pc_users .pc_user_details img {
   max-width: 40px;
   margin-right: 20px;
 }
-.popular_creators ul li .pc-users .pc-user_details h3 {
+.popular_creators ul li .pc_users .pc_user_details h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 8px;
@@ -308,7 +309,7 @@
 
   color: #000000;
 }
-.popular_creators ul li .pc-users .pc-user_details p {
+.popular_creators ul li .pc_users .pc_user_details p {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -316,7 +317,7 @@
   margin-bottom: 0;
   color: #666666;
 }
-.popular_creators ul li .pc-users .rate span {
+.popular_creators ul li .pc_users .rate span {
   padding: 10px;
   background: linear-gradient(180deg, #ffb29a -6.58%, #ff6435 106.58%);
   box-shadow: 0px 9.14286px 11.4286px rgba(0, 0, 0, 0.15);
@@ -327,3 +328,90 @@
   color: #f8f8f8;
   border-radius: 50%;
 }
+.load {
+  font-size: 16px;
+  line-height: 16px;
+  color: #ff6435;
+}
+
+@media only screen and (max-width: 767px) {
+  .user_details .card .card_header .user_status {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user_details .card .card_header .user_status ul {
+    display: flex;
+    margin-bottom: 0 !important;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+
+  .user_details .card .card_header .user_status ul li {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    padding: 0 0 0 5px;
+    border-color: #f6f6f6;
+    margin-right: 10px;
+  }
+  .user_details .card .card_header .user_status ul li:first-child {
+    border-width: 0 0 0 0px;
+    border-style: solid;
+    padding: 0 0 0 0px;
+    border-color: #f6f6f6;
+    margin-right: 10px;
+  }
+  .user_details .card .card_header .user_status label {
+    color: #999999;
+    font-weight: 500;
+    font-size: 15px;
+    /* line-height: 15px; */
+  }
+  .user_details .card .card_header .user_status ul li h5 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #ff6435;
+  }
+
+  .user_details .card .card_header {
+    background-color: #ffffff;
+    border-radius: 32px 32px 0 0;
+    padding: 20px 20px 0px 20px;
+  }
+  .user_details .card .card_body .user_list .user_chat ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* .hexagon {
+  width: 100px;
+  height: 57.735px;
+  background: red;
+  position: relative;
+}
+.hexagon::before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid red;
+}
+.hexagon::after {
+  content: "";
+  position: absolute;
+  bottom: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 28.8675px solid red;
+} */

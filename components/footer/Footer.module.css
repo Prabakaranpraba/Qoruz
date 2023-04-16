@@ -1,0 +1,55 @@
+.footer {
+  background-color: #1d0c39;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.02em;
+
+  color: #fff4ee;
+
+  opacity: 0.6;
+}
+.footer .content {
+  width: 285px;
+  height: 96px;
+  left: 246px;
+  top: 4788px;
+}
+.menu ul{padding-left: 0;}
+.menu h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  color: #ff6435;
+}
+
+.list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  letter-spacing: -0.02em;
+
+  color: #fff4ee;
+
+  opacity: 0.9;
+}
+
+.footer .copy_rights {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+
+  color: #fff4ee;
+}

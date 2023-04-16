@@ -1,0 +1,87 @@
+.reach_out {
+  padding: 50px 0;
+}
+.reach_out .card {
+  background-image: url(../../assets/gradien_bg.png);
+  background: linear-gradient(
+    180deg,
+    #3e00a9 -35.58%,
+    rgba(201, 54, 255, 0.253) 180.77%
+  );
+  border-radius: 32px;
+  backdrop-filter: blur(7.5px);
+}
+.reach_out .card ul {
+  margin-bottom: 0;
+}
+.reach_out .card ul li {
+  margin-bottom: 10px;
+}
+.reach_out .card ul li:last-child() {
+  margin-bottom: 0;
+}
+.reach_out .card h3 {
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.reach_out .card .card_body {
+  padding: 40px;
+}
+.reach_out .card .card_body .reach_out_btn {
+  background: rgba(46, 8, 93, 0.5);
+  box-shadow: 0px 23.3333px 28px -8.16667px rgba(0, 0, 0, 0.3),
+    0px 1.16667px 3.5px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.83333px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 58.3333px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1px;
+  color: #ffffff;
+  padding: 15px 15px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .reach_out .card ul {
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .reach_out .card ul li {
+    margin-right: 15px;
+  }
+  .reach_out .card ul li:last-child {
+    margin-right: 0px;
+  }
+
+  .reach_out .card h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .reach_out .card .card_body .reach_out_btn {
+    background: rgba(46, 8, 93, 0.5);
+    box-shadow: 0px 23.3333px 28px -8.16667px rgba(0, 0, 0, 0.3),
+      0px 1.16667px 3.5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5.83333px);
+    /* Note: backdrop-filter has minimal browser support */
+  
+    border-radius: 58.3333px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    color: #ffffff;
+    padding: 15px 15px 15px;
+    margin-top: 15px;
+  }
+}

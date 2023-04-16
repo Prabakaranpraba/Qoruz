@@ -1,11 +1,82 @@
 .banner {
   background-image: url(../../assets/banner.png);
-  width: 1440px;
-  height: 223px;
+  width: 100%;
+  height: 350px;
+
   /* background: linear-gradient(
     256.34deg,
     #1f0037 -0.66%,
     rgba(39, 5, 100, 0) 97.33%
   ); */
   /* transform: rotate(90deg); */
+}
+
+.backgroundcolor {
+  background: linear-gradient(
+    256.34deg,
+    #1f0037 -0.66%,
+    rgba(39, 5, 100, 0) 97.33%
+  );
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+}
+.banner_heading {
+  position: absolute;
+  color: #ffffff;
+  top: 40%;
+  left: 25%;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+}
+.banner_content {
+  position: absolute;
+  color: #ffffff;
+  top: 60%;
+  left: 25%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.more_btn {
+  position: absolute;
+  color: #ffffff;
+  top: 76%;
+  left: 47%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_heading {
+    position: absolute;
+    color: #ffffff;
+    top: 18%;
+    left: 2%;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .banner_content {
+    position: absolute;
+    color: #ffffff;
+    top: 40%;
+    left: 1%;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .more_btn {
+    position: absolute;
+    color: #ffffff;
+    top: 69%;
+    left: 41%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

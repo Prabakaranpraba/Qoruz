@@ -6,7 +6,9 @@ const SubNav = () => {
     <nav
       className={`${Style.bgMain} navbar navbar-expand-lg navbar-dark px-0 py-3`}
     >
-      <div className={`${Style.sub_nav} container-xl`}>
+      <div
+        className={`${Style.sub_nav} container-xl flex-row flex-lg-row-reverse"`}
+      >
         <a className={`${Style.sub_nav_brand} navbar-brand`} href="#">
           Home › Find creators › Instagram
         </a>
@@ -20,7 +22,7 @@ const SubNav = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className={`${Style.arrow_icon} navbar-toggler-icon `}></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">

@@ -1,0 +1,42 @@
+.blog_img {
+  max-width: 100%;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 44px;
+  /* or 92% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.pharagraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  color: #666666;
+}
+
+.btn .get_button {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 23.3333px 28px -8.16667px rgba(0, 0, 0, 0.3),
+    0px 1.16667px 3.5px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.83333px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 58.3333px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1px;
+  color: #ff6435;
+  padding: 15px 15px 15px;
+}
+

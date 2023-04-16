@@ -47,7 +47,15 @@ const NavBar = () => {
       <nav
         className={`${Style.bgMain} navbar navbar-expand-lg navbar-dark px-0 py-3`}
       >
-        <div className="container-xl">
+        <div className="container-xl flex-row-reverse flex-lg-row">
+          <div className="d-flex align-items-lg-center mt-3 mt-lg-0  ml-auto">
+            <a
+              href="#"
+              className="btn btn-sm btn btn-outline-light d-block d-md-none rounded-pill w-full w-lg-auto"
+            >
+              Request Demo
+            </a>
+          </div>
           <a className="navbar-brand" href="#">
             <Image
               src={img}
@@ -60,15 +68,15 @@ const NavBar = () => {
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
+            data-bs-target="#navbarCollapse1"
+            aria-controls="navbarCollapse1"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="collapse navbar-collapse" id="navbarCollapse1">
             <div className="navbar-nav me-auto mx-5">
               <a
                 className="nav-item nav-link active mx-3"
@@ -91,7 +99,7 @@ const NavBar = () => {
             <div className="d-flex align-items-lg-center mt-3 mt-lg-0  ml-auto">
               <a
                 href="#"
-                className="btn btn-sm btn btn-outline-light rounded-pill w-full w-lg-auto"
+                className="btn btn-sm btn btn-outline-light d-none d-md-block rounded-pill w-full w-lg-auto"
               >
                 Request Demo
               </a>

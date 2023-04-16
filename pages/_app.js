@@ -1,3 +1,4 @@
+import FooterSection from "@/components/footer/FooterSection";
 import NavBar from "@/components/nav-bar/NavBar";
 import SubNav from "@/components/sub-nav/SubNav";
 import "@/styles/globals.css";
@@ -25,7 +26,9 @@ export default function App({ Component, pageProps }) {
 
       <NavBar />
       <SubNav />
+
       <Component {...pageProps} />
+      <FooterSection />
     </>
   );
 }

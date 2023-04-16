@@ -1,8 +1,13 @@
 .bgMain {
   background-color: #9284ab;
-  height: 50px;
+
   font-size: 14.25px;
 }
 .sub_nav_brand {
   font-size: 14.25px;
+}
+.arrow_icon {
+  background-image: url(../../assets/mobile.png) !important;
+  width: 25px;
+  height: 25px;
 }
