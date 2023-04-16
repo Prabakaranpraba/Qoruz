@@ -48,7 +48,7 @@ const NavBar = () => {
         className={`${Style.bgMain} navbar navbar-expand-lg navbar-dark px-0 py-3`}
       >
         <div className="container-xl flex-row-reverse flex-lg-row">
-          <div className="d-flex align-items-lg-center mt-3 mt-lg-0  ml-auto">
+          <div className="d-flex align-items-lg-center mt-1 mt-lg-0  ml-auto">
             <a
               href="#"
               className="btn btn-sm btn btn-outline-light d-block d-md-none rounded-pill w-full w-lg-auto"

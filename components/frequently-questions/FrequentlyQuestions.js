@@ -4,15 +4,15 @@ import Style from "./Frequently.module.css";
 export const FrequentlyQuestions = () => {
   return (
     <>
-   
       <div className="frequently py-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <h3 className={Style.heading}>Frequently Asked Questions</h3>
-              <p className={Style.content}>
-                Everything you need to know about the product and how it works.
-                Can&apos;t find an answer?
+              <p className={`${Style.content}  py-3`}>
+                Everything you need to know about the product <br></br>and how
+                it works.
+                <b>Can&apos;t find an answer?</b>
               </p>
             </div>
             <div className="col-lg-6">
@@ -82,7 +82,7 @@ export const FrequentlyQuestions = () => {
                         bigger the brand, the harder it is to be close and
                         personable with your followers.
                       </p>
-                      <p>
+                      <p className={Style.answer}>
                         Influencers have the ability to sway the purchasing
                         decisions of their followers due to their expertise,
                         charisma, or authority. By also letting followers into
@@ -112,7 +112,7 @@ export const FrequentlyQuestions = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      <p>
+                      <p className={Style.answer}>
                         Influencers nurture strong, personal connections with
                         their followers that brands cannot achieve today. The
                         bigger the brand, the harder it is to be close and
@@ -148,7 +148,7 @@ export const FrequentlyQuestions = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      <p>
+                      <p className={Style.answer}>
                         Influencers nurture strong, personal connections with
                         their followers that brands cannot achieve today. The
                         bigger the brand, the harder it is to be close and
